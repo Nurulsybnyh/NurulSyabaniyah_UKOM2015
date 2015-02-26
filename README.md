@@ -32,10 +32,10 @@ Semua umat Muslim yang telah memenuhi syarat dalam Islam
 
 <h3>Kredit</h3>
 ---------------------
-Nama : Nurul Sya'baniyah <br>
-Kelas : XII-RPL <br>
-Sekolah : SMK NEGERI 10 JAKARTA <br>
-Email : nsyabaniyah@gmail.com <br>
-Blogger : http://nurulsyabaniyah3.blogspot.com <br>
-Web Github : https://nurulsybnyh.github.io <br>
-Facebook : www.facebook.com/nurulsybnyh <br>
+Nama 		: Nurul Sya'baniyah <br>
+Kelas 		: XII-RPL <br>
+Sekolah 	: SMK NEGERI 10 JAKARTA <br>
+Email 		: nsyabaniyah@gmail.com <br>
+Blogger 	: http://nurulsyabaniyah3.blogspot.com <br>
+Web Github 	: https://nurulsybnyh.github.io <br>
+Facebook 	: www.facebook.com/nurulsybnyh <br>
