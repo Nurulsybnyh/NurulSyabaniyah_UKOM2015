@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bckgrnd"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:textSize="30dp"
+                android:text="Zakat Fitrah"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Info: Zakat Fitrah di keluarkan pada saat bulan Ramadhan hingga sebelum sholat Idul Fitri di laksanakan"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/txtinfo"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="67dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#ffffff"
+                android:text="Beras, gandum, jagung, sagu, kurma  :"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:layout_marginTop="39dp"
+                android:layout_below="@+id/txtinfo"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edtfitrah"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="20dp"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:hint="0 Kg" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#009900"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Lihat Zakat Anda"
+                android:textSize="20dp"
+                android:textColor="#ffffff"
+                android:id="@+id/hitungfitrah"
+                android:layout_below="@+id/edtfitrah"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Total Zakat Anda  :                             "
+                android:background="#ffffff"
+                android:layout_marginTop="50dp"
+                android:id="@+id/textView2"
+                android:layout_alignTop="@+id/button2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:background="#FFF">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="0 Kg"
+                    android:layout_gravity="center"
+                    android:background="#ffffff"
+                    android:id="@+id/txttotalfitrah"
+                    android:layout_below="@+id/textView2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+             </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

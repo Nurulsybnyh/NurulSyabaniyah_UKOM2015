@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.zakattime.nurulsybnyh.zakattime" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TotalZakatMal"
+            android:label="@string/title_activity_total_zakat_mal" >
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home2" >
+        </activity>
+        <activity
+            android:name=".Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name=".ZakatFitrah"
+            android:label="@string/title_activity_zakat_fitrah" >
+        </activity>
+        <activity
+            android:name=".ZakatMal"
+            android:label="@string/title_activity_zakat_mal" >
+        </activity>
+    </application>
+
+</manifest>
